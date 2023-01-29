@@ -4,7 +4,12 @@
         <title>trisa leung</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="styles.css">
-        <script></script>
+        <script>
+            var canvas = document.getElementById("placeholderCanvas");
+            var ctx = canvas.getContext("2d");
+            ctx.fillStyle = "#000000";
+            ctx.fillRect(0, 0, 80, 80);
+        </script>
         <style></style>
     </head>
     <body>
@@ -105,6 +110,10 @@
                     <code>
                         alert("Why were the two people who knew nothing about the theme (Pokemon) put in charge of a workshop together?");
                     </code>
+
+                    <canvas id="placeholderImage">
+                        browser does not support canvas tag.
+                    </canvas>
                 </div>
 
                 <br>
