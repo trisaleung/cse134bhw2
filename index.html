@@ -187,6 +187,32 @@
             <hr>
             <footer>
                 <h2>contact me</h2>
+
+                <form action="" method="get">
+                    <div>
+                        <label for="name">Enter your name: </label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Enter your email: </label>
+                        <input type="text" name="email" required>
+                    </div>
+                    <div>
+                        <label for="type">Type of message: </label>
+                        <select name="type">
+                            <option value="">Please choose an option</option>
+                            <option value="recruitment">recruiter message</option>
+                            <option value="questionsacm">acm questions</option>
+                            <option value="other">other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message">Enter your message here: </label>
+                        <textarea name="message" rows="5" cols="100" placeholder="insert your message here."></textarea>
+                    </div>
+                    <button type="submit">submit message!</button>
+                </form>
+
             </footer>
         </main>
     </body>
