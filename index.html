@@ -208,18 +208,26 @@
                         <fieldset>
                             <label for="type">Type of message: </label>
                             <select name="type" id="type">
-                                <datalist id="messagetype">
-                                    <option value>please select an option</option>
-                                    <optgroup label="work">
-                                        <option value="recruitment">recruiter message</option>
-                                        <option value="internship">questions about internship</option>
-                                    </optgroup>
-                                    <optgroup label="community">
-                                        <option value="questionsacm">acm questions</option>
-                                    </optgroup>
-                                    <option value="other">other</option>
-                                </datalist>
+                                <option value="">Please choose an option</option>
+                                <optgroup label="work">
+                                    <option value="recruitment">recruiter message</option>
+                                    <option value="internship">questions about internship</option>
+                                </optgroup>
+                                <optgroup label="community">
+                                    <option value="questionsacm">acm questions</option>
+                                </optgroup>
+                                <option value="other">other</option>
                             </select>
+                        </fieldset>
+                        <fieldset>
+                            <label for="year">Favorite ACM year: </label>
+                            <input list="acm-year" id="year">
+                            <datalist id="acm-year">
+                                <option value="one">one</option>
+                                <option value="two">two</option>
+                                <option value="three">three</option>
+                                <option value="four">four</option>
+                            </datalist>
                         </fieldset>
                         <fieldset>
                             <label for="message">Enter your message here: </label>
