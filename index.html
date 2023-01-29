@@ -208,15 +208,17 @@
                         <fieldset>
                             <label for="type">Type of message: </label>
                             <select name="type" id="type">
-                                <option value="">Please choose an option</option>
-                                <optgroup label="work">
-                                    <option value="recruitment">recruiter message</option>
-                                    <option value="internship">questions about internship</option>
-                                </optgroup>
-                                <optgroup label="community">
-                                    <option value="questionsacm">acm questions</option>
-                                </optgroup>
-                                <option value="other">other</option>
+                                <datalist id="messagetype">
+                                    <option value>please select an option</option>
+                                    <optgroup label="work">
+                                        <option value="recruitment">recruiter message</option>
+                                        <option value="internship">questions about internship</option>
+                                    </optgroup>
+                                    <optgroup label="community">
+                                        <option value="questionsacm">acm questions</option>
+                                    </optgroup>
+                                    <option value="other">other</option>
+                                </datalist>
                             </select>
                         </fieldset>
                         <fieldset>
